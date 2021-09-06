@@ -19,7 +19,11 @@
 .celtic-blue-text {
     color: #266dd3;
 }
-
+.thin-black-border {
+    border-color: #0b132b;
+    border-width: 10px;
+    border-style: solid;
+}
 
 
 
