@@ -68,5 +68,10 @@ ul {
 }
 li {
     display: inine;
-    float: left;
+    float: right;
+}
+.nav-a {
+    display: block;
+    padding: 8px;
+    background-color: #266dd3;
 }
