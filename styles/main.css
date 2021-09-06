@@ -1,15 +1,38 @@
 /*@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Zeyada&display=swap');
 */
-head {
+
+.white-background {
     background-color: #FFFFFF;
+}
+.celtic-blue-background {
+    background-color: #266dd3;
+}
+.pear-background {
+    background-color: #cfd11a;
+}
+.max-blue-green-background {
+    background-color: #5bc0be;
+}
+.black-text {
+    color: #0b132b;
+}
+.celtic-blue-text {
+    color: #266dd3;
+}
+
+
+
+
+head {
     text-align: center;
 }
+
 h1 {
-    background-color: #FFFFFF;
     color: #266dd3;
     text-align: center;
     padding: 50px;
 }
+
 h2 {
     font-family: monospace, cursive;
     padding-top: 10%;
@@ -17,6 +40,7 @@ h2 {
 }
 
 body {
-    background-color: #FFFFFF;
+    background-color: url("https://cdn-media-1.freecodecamp.org/imgr/MJAkxbh.png")/
     text-align: center;
 }
+
