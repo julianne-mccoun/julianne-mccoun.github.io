@@ -24,6 +24,11 @@
     border-width: 10px;
     border-style: solid;
 }
+.thinner-black-border {
+    border-color: #0b132b;
+    border-width: 5px;
+    border-style: solid;
+}
 
 
 
@@ -44,8 +49,12 @@ h2 {
     font-family: monospace, cursive;
     font-size: 250%;
     text-align: center;
-    padding-top: 8%;
-    padding-bottom: 8%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 400px;
+    margin-right: 400px;
 }
 
 h3 {
