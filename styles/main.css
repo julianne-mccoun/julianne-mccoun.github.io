@@ -8,9 +8,12 @@ h1 {
     background-color: #FFFFFF;
     color: #266dd3;
     text-align: center;
+    padding: 50px;
 }
 h2 {
     font-family: monospace, cursive;
+    padding-top: 10%;
+    padding-bottom: 13%;
 }
 
 body {
