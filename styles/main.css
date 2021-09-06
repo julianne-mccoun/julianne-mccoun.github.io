@@ -65,13 +65,20 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    position: fixed;
+    top:0;
+    width: 100%
 }
-li {
+.nav-li {
     display: inine;
     float: right;
 }
+
 .nav-a {
     display: block;
-    padding: 8px;
+    padding: 2%;
     background-color: #266dd3;
+}
+.nav-a:hover {
+    background-color: #5bc0be;
 }
