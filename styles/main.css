@@ -1,6 +1,3 @@
-/*@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Zeyada&display=swap');
-*/
-
 .white-background {
     background-color: #FFFFFF;
 }
@@ -30,6 +27,9 @@
     border-style: solid;
 }
 
+.kaushan-script-font {
+    font-family: 'Kaushan Script', cursive;
+}
 
 
 head {
