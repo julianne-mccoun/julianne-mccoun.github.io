@@ -31,12 +31,8 @@ h1 {
     margin-top: 5%;
 }
 
-h2 {
-
-}
-
-h3 {
-
+.medium-img {
+    width: 25%;
 }
 /*Nav bar styling*/
 ul {
