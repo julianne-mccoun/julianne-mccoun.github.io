@@ -79,12 +79,12 @@ ul {
     width: 100%
 }
 .nav-li {
-    display: inine;
+    display: inline-block;
     float: right;
 }
 
 .nav-a {
-    display: block;
+    display: inline-block;
     padding: 2%;
     background-color: #FFFFFF;
 }
