@@ -38,3 +38,27 @@ h2 {
 h3 {
 
 }
+/*Nav bar styling*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top:0;
+    width: 100%
+}
+.nav-li {
+    display: inine;
+    float: right;
+}
+
+.nav-a {
+    display: block;
+    padding: 2%;
+    background-color: #266dd3;
+}
+.nav-a:hover {
+    background-color: #5bc0be;
+}
+
+/* End Nav bar styling*/
