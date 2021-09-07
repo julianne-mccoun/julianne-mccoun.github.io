@@ -31,6 +31,10 @@
     font-family: 'Kaushan Script', cursive;
 }
 
+.baloo2-font {
+    font-family: 'Baloo 2', cursive;
+}
+
 
 head {
     text-align: center;
@@ -46,8 +50,7 @@ h1 {
 }
 
 h2 {
-    font-family: monospace, cursive;
-    font-size: 250%;
+    font-size: 350%;
     text-align: center;
     padding-top: 3%;
     padding-bottom: 3%;
