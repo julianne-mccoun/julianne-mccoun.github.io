@@ -91,12 +91,19 @@ a {
 .top-position{
     vertical-align: top  ;
 }
-
+/* Images */
 .responsive {
-    max-width: 45%
+    max-width: 90%;
+    width: 44%;
     height: auto;
 
 }
+
+.code-imgs {
+    width: 44%;
+}
+
+/* End Images */
 
 .left-margin {
     margin-left: 5%;
