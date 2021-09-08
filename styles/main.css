@@ -48,7 +48,6 @@ h2 {
     margin-right: 10%;
 }
 
-
 p {
     font-family: 'dosis', sans-serif;
 }
@@ -59,11 +58,6 @@ a {
     font-size: 150%;
     color: #fefae0;
 }
-
-.left-padding {
-    padding-left: 10%;
-}
-
 
 /*Nav bar styling*/
 .nav-bar {
@@ -94,3 +88,8 @@ a {
     background-color: #283618;
 }
 /* End Nav bar styling*/
+
+/* Misc */ 
+.left-padding {
+    padding-left: 10%;
+}
