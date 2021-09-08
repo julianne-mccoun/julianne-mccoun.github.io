@@ -36,7 +36,7 @@
  <div>
      <h3>The Display Property and Elements</h3>
          <p>
-      The display property determines whether an element is treated as a block or as an inline element. 
+      The display property determines if an how an element is displayed - such as whether an element is treated as a block or as an inline element. 
       In HTML, elements are defined by starting tags. Examples of starting tags are the heading tags &lt;h1&gt; - &lt;h6&gt; Some elements have closing tags 
       while others, called <i>void elements</i>, don't need a closing tag (such as image elements).
       <br> <br>
@@ -80,30 +80,41 @@
         <br><br>
     </p>
         <img src="../../styles/Images/css-displayinline-blog/css-display-inline-baseHTML.png" alt="Image of code which creates a navigation bar" class="left-margin responsive">
+
+
     <h4>Display: block</h4>
     <p>
         <!-- DISCUSS WHAT display:block DOES-->
+        A block display starts an element on a new line and takes up the full width that is available. Examples of default display: block include &lt;div&gt;, &lt;h1&gt; - &lt;h6&gt;, and &lt;p&gt; tags.
+        <br><br>
+        Look at the images below. Line two of our test.css file sets the display property to block, and on web page image we can see that the navigation bar element takes up the width of the screen, even though the text only takes up about 75% of it. 
+        It also takes up the full 80px height determined in line 3 of the code. 
+        <br>
     </p>
     <!-- TWO IMAGES: FROM CSS CODE AND RESULTING WEBPAGE FOR DISPLAY:BLOCK-->
         <img src="../../styles/Images/css-displayinline-blog/css-display-inline-blockCSS.png" alt="CSS code styling an HTML navigation bar to showcase the display property with :block input" class=" code-imgs responsive top-position left-margin"> 
         <img src="../../styles/Images/css-displayinline-blog/css-display-inline-blockWEBPAGE.png" alt="Result of display:block used on a nav bar on a web page" class="responsive top-position left-margin"> 
-    <h4>Display: inline</h4>
+    
+    
+        <h4>Display: inline</h4>
     <p>
         <!-- DISCUSS WHAT display:inline DOES-->
+        An inline display only takes up the space necessary for the content. This means that element does not start on a new line and it will not take up the full height it if is not needed. 
+        <br><br>
+        Examples of inline elements include: &lt;span&gt;, &lt;a&gt; and &lt;img&gt; elements. 
     </p>
     <!-- TWO IMAGES: FROM CSS CODE AND RESULTING WEBPAGE FOR DISPLAY: INLINE-->
         <img src="../../styles/Images/css-displayinline-blog/css-display-inline-inlineCSS.png" alt="CSS code styling an HTML navigation bar to showcase the display property with :inline input" class="responsive top-position left-margin"> 
         <img src="../../styles/Images/css-displayinline-blog/css-display-inline-inlineWEBPAGE.png" alt="Result of display:inline used on a nav bar on a web page" class="responsive top-position left-margin">
-<p>
-    An element displayed inline does not start on a new line, and it only takes up the necessary space. 
-    <br><br>
-    Examples of inline elements include: &lt;span&gt;, &lt;a&gt; and &lt;img&gt; elements. 
-    <br> <br>
-    Let's have a look at what this looks like on a web page!
-</p>
+
+
+
 
     <h4>Display: inline-blocks</h4>
     <p>
+        An inline-block display does not start on a new line. This display creates a block element box (therefore it takes up the full height of 80px even though it is not needed for the content) but it flows with surrounding content as if it were a single inline box. 
+        <br><br>
+        This allows the developer to set a width and height on the element which is not possible with the display: inline property.
         <!-- DISCUSS WHAT display: inline-blocks DOES-->
     </p>
     <!-- TWO IMAGES: FROM CSS CODE AND RESULTING WEBPAGE FOR DISPLAY: INLINE-BLOCKS-->

@@ -94,13 +94,14 @@ a {
 /* Images */
 .responsive {
     max-width: 90%;
-    width: 44%;
+    width: 40%;
     height: auto;
-
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
 
 .code-imgs {
-    width: 44%;
+    width: 40%;
 }
 
 /* End Images */
