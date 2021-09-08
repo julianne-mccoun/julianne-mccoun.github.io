@@ -79,7 +79,15 @@ a {
     font-family: 'dosis', sans-serif;
     font-weight: 500;
     font-size: 150%;
-    color: #fefae0;
+    color: #283618;
+}
+
+.p-links {
+    font-family: 'dosis', sans-serif;
+    font-size: large;
+    font-weight: 700;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .date {
@@ -92,6 +100,10 @@ a {
 .top-position{
     vertical-align: top  ;
 }
+.bottom-padding {
+    padding-bottom: 3%;
+}
+
 /* Images */
 .responsive {
     max-width: 90%;

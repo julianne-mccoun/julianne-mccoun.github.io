@@ -30,7 +30,7 @@
  </header>
 
 
-<body>
+<body class="bottom-padding">
     <h1>CSS: Elements Displayed Inline versus as Inline-blocks</h1>
     <h2>This blog post will explain what an HTML element is defined as, a brief explanation of what the display property </h2>
  <div>
@@ -40,9 +40,6 @@
       In HTML, elements are defined by starting tags. Examples of starting tags are the heading tags &lt;h1&gt; - &lt;h6&gt; Some elements have closing tags 
       while others, called <i>void elements</i>, don't need a closing tag (such as image elements).
       <br> <br>
-      Each type of element has a default display value, but these can be overwritten in your code using the property <u>display :</u>.
-      This will only change how it's displayed, not the kind of element.
-       We'll discuss default display types a bit later.
          </p>
 
         <h4 class="centered">Examples of Elements</h4>
@@ -60,6 +57,12 @@
                 <td>&lt;img src="your_image_link.png" alt="Alternative text describing your image"&gt;</td>
              </tr>
          </table>   
+
+         <p>
+            Each element type has a default display value, but these can be overwritten in your code using the property <u>display :</u>.
+            This will only change how it's displayed, not the kind of element.
+             We'll discuss default display types a bit later.
+         </p>
         
      </div>
 
@@ -114,7 +117,7 @@
     <p>
         An inline-block display does not start on a new line. This display creates a block element box (therefore it takes up the full height of 80px even though it is not needed for the content) but it flows with surrounding content as if it were a single inline box. 
         <br><br>
-        This allows the developer to set a width and height on the element which is not possible with the display: inline property.
+        This allows the developer to set a width and height on the element as well as margins and paddings which is not possible with the display: inline property.
         <!-- DISCUSS WHAT display: inline-blocks DOES-->
     </p>
     <!-- TWO IMAGES: FROM CSS CODE AND RESULTING WEBPAGE FOR DISPLAY: INLINE-BLOCKS-->
@@ -123,6 +126,16 @@
 
     </div>
 
-    <h2>Sources</h2>
+    <h2>A special thanks to:</h2>
+    <p class="centered">
+        <br> <br>
+         <a href="https://www.w3schools.com" class=>W3 Schools</a>
+         <br><br>
+         <a href="freecodecamp.org">Free Code Camp</a>
+        
+         <br> <br>
+         
+         For their top notch CSS and HTML tutorials!
+     </p>
   </body>
 </html>
