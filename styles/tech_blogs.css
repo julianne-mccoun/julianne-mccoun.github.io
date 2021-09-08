@@ -88,6 +88,20 @@ a {
     font-weight: 600;
 }
 
+.top-position{
+    vertical-align: top  ;
+}
+
+.responsive {
+    max-width: 45%
+    height: auto;
+
+}
+
+.left-margin {
+    margin-left: 5%;
+}
+
 /*Nav bar styling*/
 .nav-bar {
     width: 100%;
