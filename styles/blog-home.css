@@ -32,7 +32,9 @@ h1 {
     font-family: 'dosis', sans-serif;
     color: #283618;
     text-align: center;
-    padding-bottom: 1%;
+    font-size: 250%;
+    font-weight: 800;
+    padding-bottom: 0%;
     padding-top: 0%;
     margin-left: 20%;
     margin-right: 20%;
@@ -41,14 +43,22 @@ h1 {
 h2 {
     font-family: 'dosis', sans-serif;
     color: #283618;
-    font-size: 150%;
+    font-size: 200%;
     text-align: center;
     padding-top: 1%;
     padding-bottom: 0%;
     margin-top: 1%;
-    margin-bottom: 5%;
+    margin-bottom: 1%;
     margin-left: 10%;
     margin-right: 10%;
+}
+h3 {
+    font-family: 'dosis', sans-serif;
+    color: #283618;
+    font-size: 150%;
+    text-align:center;
+    margin-left:;
+    margin-top: 1%;
 }
 
 p {
@@ -68,6 +78,7 @@ a {
 
 ul {
     list-style: none;
+    display: inline-block;
 }
 
 li {
@@ -114,10 +125,11 @@ li {
 }
 
 .left-center {
-    padding-left: 20%;
+    padding-left: 30%;
 }
 
 .right-center {
     float: right;
-    padding-right: 20%;
+    padding-right: 30%;
+    text-align: left;
 }
