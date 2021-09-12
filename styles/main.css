@@ -59,6 +59,14 @@ a {
     color: #fefae0;
 }
 
+#welcome-message {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+
+}
+
 /*Nav bar styling*/
 .nav-bar {
     width: 100%;
