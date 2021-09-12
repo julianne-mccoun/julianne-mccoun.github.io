@@ -75,7 +75,7 @@ p {
 
 }
 
-ul {
+ul, ol {
     font-family: 'dosis', sans-serif;
     padding-left: 7%;
     font-weight: 600;
