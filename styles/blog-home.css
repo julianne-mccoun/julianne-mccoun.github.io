@@ -127,11 +127,13 @@ li {
 }
 
 .left-center {
-    padding-left: 30%;
+    /*padding-left: 40%; */
+    display:block;
+    text-align: center;
 }
 
-.right-center {
+/*.right-center {
     float: right;
     padding-right: 30%;
     text-align: left;
-}
+}*/
