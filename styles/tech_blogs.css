@@ -123,6 +123,16 @@ a {
     width: 40%;
 }
 
+.jsfundimgs {
+    vertical-align: top;
+    display: inline-block;
+    width: auto;
+    max-width: 90%;
+    height: auto;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    padding-left: 10%;
+
 /* End Images */
 
 .left-margin {
