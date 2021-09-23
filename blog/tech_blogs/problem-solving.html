@@ -1,51 +1,82 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Problem Solving</title>
-    <meta charset="UTF-8">
-    <!-- Link to main.css page -->
-    <link href="../../styles/tech_blogs.css" rel="stylesheet" type="text/css">
+<head>
+  <title>Problem Solving</title>
+  <meta charset="UTF-8">
+  <!-- Link to main.css page -->
+  <link href="../../styles/tech_blogs.css" rel="stylesheet" type="text/css">
 
-    <!-- Google fonts setup -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Open+Sans&family=Source+Code+Pro:wght@200&display=swap" rel="stylesheet">
+  <!-- Google fonts setup -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Open+Sans&family=Source+Code+Pro:wght@200&display=swap" rel="stylesheet">
 
-    <!-- Favicon -->
-    <link rel="shortcut icon" href="../../styles/Images/favicon-32x32.ico" type="image/x-icon">
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="../../styles/Images/favicon-32x32.ico" type="image/x-icon">
 
-   </head>
+</head>
 
-<header>
+  <header>
     <!-- Navigation Bar and Initials Logo -->
     <nav class="nav-bar">
-        <span class="nav-bar large-logo">JM</span>
-        <a class="hovering" href="../../index.html">Home</a>
-        <a class="hovering" href="../../blog/blog-index.html">Blog</a>
-        <a class="hovering" href="../../about-me.html">About Me</a>
-     </nav>
+      <span class="nav-bar large-logo">JM</span>
+      <a class="hovering" href="../../index.html">Home</a>
+      <a class="hovering" href="../../blog/blog-index.html">Blog</a>
+      <a class="hovering" href="../../about-me.html">About Me</a>
+      </nav>
 
-     <h3 class="date">September 24, 2021</h3>
- </header>
+      <h3 class="date">September 24, 2021</h3>
+  </header>
 
 <body class="bottom-padding light-tan">
     <h1>Problem Solving<title></title></h1>
-    <h2>Summary of blog post</h2>
+    <h2>In this blog post on problem solving I'm going to discuss how I worked through the 'Super-Fizz-Buzz' kata challenge for Sprint 4 of foundations and also discuss how I overcomplicated and then simplified the .join() method.</h2>
  <div>
-     <h3>Section Heading</h3>
-        <p>
-      Paragraph 
-         </p>
-         <br> <br>
-        <p>
-          Paragraph
-         </p>
-     </div>
+    <h3>Understanding the Problem: Super-Fizz-Buzz</h3>
+      <p>
+        I think understanding the problem is one of the trickiest parts of coding, and it's an ongoing process. For this challenge I took time to read the question properly and still got it wrong at first. The challenged asked to make a function that takes an argument of an array and returns an array with the following changes:
+      </p>
+      <ul>
+        <li>Multiples of 3 as "Fizz"</li>
+        <li>Multiples of 5 as "Buzz"</li>
+        <li>Multiples of 15 with "FizzBuzz"</li>
+      </ul>
+      <p>
+        I solved this task by breaking down the problem into as small of pieces as I could. I developed and created the follwing steps, and I used pseudocode to map out the function at each step:
+      </p>
+      <ol>
+        <li>Make a function that accepts an array argument, declares a new array, pushes each data point from array 1 to array 2, and returns array 2. </li>  
+        <li>All from step 1, but also checks to see if each data point is divisible by 15 and pushes the string "FizzBuzz" instead of the number if so and the original number if not.</li>
+        <li>All from steps 1 and 2, but also checks if numbers were divisble by 3 or 5 with strings "Fizz" or "Buzz" being pushed if this was the case.</li>
+      </ol>
+      <p>
+        This challenge was very enjoyable because I really got to think through what I was doing and I felt challenged but not totally thrown into the deep end of things and I could work on working the problem rather than be defeated from the beginning. 
+      </p>
+      <p>
+        Some of the helpful tools I used were pseudocoding, the 'rubber ducky method' of talking through the problem out loud and googling things. 	Test driven development was ideal as I knew what I needed from it before I began writing and could see each time if it works rather than stabbing at it a bunch of times and then seeing what happened. 
+      </p>
+  </div>
  <div>
-    <h3>Section Heading</h3>
+    <h3>The Only Semblance of Eventual Elegance</h3>
     <p>
-       Paragraph
+      Another problem I encountered during this sprint was in the Built-In-Methods section, where I greatly overcomplicated a problem (I have a feeling this won't be the last time, either). 
+      <br>
+      This was the .join() method; for the task we needed to take an array of strings an join them together to return a complete word. I got into a bit of a muddled up situation here when I misunderstood how join worked:
     </p>
-      
+    <img src="../../styles/Images/problem-solving blog/join.png"alt="A coding example of incorrectly using the .join() method in JS and the associated error" class="jsfundimgs">
+    <p>
+      As it turned out, to fix it I only needed to dig a bit further into google! I did reach out to my cohort though and some of the other people were quite helpful. Some searches and playing around with the code helped me come to this conclusion (I didn't realise until this that the .join("") would automatically remove all of the spaces between the data points):
+    </p>
+    <img src="../../styles/Images/problem-solving blog/better-join.PNG" alt="A more elegant version of using the .join() method with no error message" class="jsfundimgs">
+    
+    <p>
+      Sometimes it's all in your head I guess. I used slightly different methods here such as console logging to help me find out what my code was doing with each change I made. I also found talking it out very useful. 
+    </p>
+    <br>
+    <p>
+      Reflection after each challenge was helpful for me. I spent time consolidating my notes and generally working to better understand the tasks I completed and help myself improve as a coder. Overall I have greatly enjoyed the problem solving aspects of this Sprint and enjoy getting to stretch my brain a bit in new ways. 
+    </p>
+
+  </div>   
   </body>
 </html>
